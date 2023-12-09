@@ -50,6 +50,38 @@ console.log(loginUserMessage());// sam just logged in
 console.log(loginUserMessage("hitesh"));// hitesh just logged in
 
 
+// shopping cart function................
+
+  function calculateCartPrice(val1,val2,...num1){
+    return num1
+  }
+
+//   calculateCartPrice(2)
+  console.log(calculateCartPrice(200,400,500,2000));// [200,400,500,2000]
+  console.log(calculateCartPrice(200,400,500,2000));// [200val1,400val2,500,2000]
+
+const user = {
+    username:"ani",
+    price: 199
+}
+
+function handleObjects(anyObject){
+ console.log(`username is ${anyObject.username} and price is ${anyObject.price}`);
+}
+
+handleObjects(user)// 
+handleObjects({
+    username:"ani",
+    price: 399
+})// 
+
+const myNewArray = [200,400,100,600]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+// console.log(returnSecondValue(myNewArray));//400
+console.log(returnSecondValue([200,400,500,1000]);
 
 
 
