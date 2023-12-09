@@ -55,6 +55,37 @@ const obj3 = {...obj1,...obj2}
 
 
 
+ const course = {
+    coursename :"js in hindi",
+    price:"999",
+    courseInstructor:"Hitesh"
+ }
+
+//  course.courseInstructor
+const {courseInstructor: instructor} = course
+// console.log(courseInstructor);// hetish
+console.log(instructor);// hetish
+
+// const navbar = ({company})=>{
+
+// }
+// navbar(company ="hetish")
+
+// Api.................intro..........
+
+  //  JSON
+// {
+//  "name":"hetish",
+//  "coursename":"js hindi",
+//  "price":"free"
+
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
 
 
  
